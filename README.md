@@ -1,2 +1,2 @@
 # ecommerce
-zomm chrome window to 125%
+zoom chrome window to 125%
