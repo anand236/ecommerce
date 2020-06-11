@@ -1,0 +1,33 @@
+/* -----------------offer of the day--------------------------- */
+a.offer.nav-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: red;  
+}
+
+/* ----------------------------login hovering effetct------------------ */
+a.login.nav-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+}
+
+
+/* ------------------------------men women kids categories hovering effect-------------- */
+a.cat.nav-link:focus,
+a.cat.nav-link:hover {
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+/* -------------men dropdown--------------------------- */
+ul.megamenu{
+    background-color: white;
+    width:80%;
+    opacity: 0.9;
+}
+
+/* ---------------------------electronics dropdown------------------------- */
+ul.electronic{
+    width:40%;
+}

@@ -1,0 +1,561 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../men/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    <div class='container-fluid'>
+
+        <!-- -----------------------first nav bar-------------------------------- -->
+
+        <nav class="navbar navbar-expand-sm bg-info text-dark" style="height: 30px;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="offer nav-link btn btn-primary" href="#" style="border-radius: 30px; color: black;">Offer
+                        of the day</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: small; color: black;">Get 30% off on order above
+                        5000/- </a>
+                </li>
+                <li class="nav-item">
+                    <a class=" login nav-link ml-5" href="#" data-toggle='modal' data-target='#login-modal'
+                        style="color: black;">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="login  nav-link" href="#" data-toggle='modal' data-target='#register-modal'
+                        style="color: black;">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="login  nav-link" href="#" data-toggle='modal' data-target='#helpline-modal'
+                        style="color: black;">Helpline</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- -----------------------second nav bar------------------------------------- -->
+
+        <nav class="navbar navbar-expand-sm bg-info ">
+            <ul class="men navbar-nav">
+                <a class=" nav-brand text-warning " href="#" style="font-size: xx-large;">ancart</a>
+                <li class="nav-item">
+
+                    <a class="cat nav-link dropdown-toggle ml-2" data-toggle="dropdown" style="color: black;"
+                        href="#">Men</a>
+
+                    <ul class="dropdown-menu megamenu">
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <h5>Clothing</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Shoes</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Accessories</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Featured</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                    </ul>
+                                    <h5>Looks and trends</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="cat nav-link ml-2 dropdown-toggle" data-toggle="dropdown" style="color: black;"
+                        href="#">Women</a>
+
+                    <ul class='dropdown-menu megamenu'>
+                        <li>
+                            <div class='row'>
+                                <div class='col-sm-3'>
+                                    <h3>Clothing</h3>
+                                    <ul class='list-unstyled'>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Kurta</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Kurta</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Kurta</a></li>
+                                    </ul>
+                                </div>
+                                <div class='col-sm-3'>
+                                    <h3>Shoes</h3>
+                                    <ul class='list-unstyled'>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                    </ul>
+                                </div>
+                                <div class='col-sm-3'>
+                                    <h3>Accessory</h3>
+                                    <ul class='list-unstyled'>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>watch</a></li>
+                                    </ul>
+                                </div>
+                                <div class='col-sm-3'>
+                                    <h3>Shoes</h3>
+                                    <ul class='list-unstyled'>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                        <li class='nav-item'><a href="#" class='nav-link'>Train</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="cat nav-link dropdown-toggle ml-2" data-toggle="dropdown" style="color: black;"
+                        href="#">Kids</a>
+
+                    <ul class="dropdown-menu megamenu">
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <h5>Clothing</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Shoes</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Accessories</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Casual</a></li>
+                                    </ul>
+                                </div>
+                                <div class=" col-lg-3">
+                                    <h5>Featured</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a></li>
+                                    </ul>
+                                    <h5>Looks and trends</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Sandals</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Hiking shoes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="cat nav-link ml-2 dropdown-toggle" data-toggle="dropdown" style="color: black;"
+                        href="#">Books</a>
+
+                    <ul class='dropdown-menu megamenu'>
+                        <li>
+                            <div class='row'>
+                                <div class="col-lg-3">
+                                    <h5>Books</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Books cover</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Books</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Books cover</h5>
+                                    <ul class="list-unstyled mb-3">
+                                        <li class="nav-item"><a href="#" class="nav-link">T-shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Pants</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="cat nav-link ml-2 dropdown-toggle" data-toggle="dropdown" style="color: black;"
+                        href="#">Electronics</a>
+
+                    <ul class='dropdown-menu' style="margin-left: 410px;">
+                        <li>
+                            <div class='row'>
+                                <div class='col-sm-3'>
+                                    <h3>Mobiles</h3>
+                                    <ul class='list-unstyled electronic'>
+                                        <li class='nav-item'><a href="#" class="nav-link">Sony</a></li>
+                                        <li class='nav-item'><a href="#" class="nav-link">onePlus</a></li>
+                                        <li class='nav-item'><a href="#" class="nav-link">apple</a></li>
+                                        <li class='nav-item'><a href="#" class="nav-link">HTC</a></li>
+                                        <li class='nav-item'><a href="#" class="nav-link">honor</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div>
+                <input type="text" class='form-control' style="width: 450px; margin-left: 30px;"
+                    placeholder="search by product name">
+            </div>
+        </nav>
+
+        <!-- ----------------------------------------first header login modal----------------------------- -->
+
+        <div class='modal' id='login-modal'>
+            <div class='modal-dialog'>
+                <div class='modal-content'>
+
+                    <div cladd='modal-header'>
+                        <h4 class='modal-title bg-warning pt-1 pb-1 pl-2 mb-1' style="border-radius: 5px;">Customer
+                            Login
+                            <button class='close' data-dismiss='modal'
+                                style="margin-right: 15px;margin-top: 06px;">X</button>
+                        </h4>
+
+                    </div>
+
+                    <div class='modal-body'>
+                        <input type="email" class='form-control' placeholder="Email"><br>
+                        <input type="password" class='form-control' placeholder="Password"><br>
+                        <button class='btn btn-primary'>Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------ register modal------------------------------------------------- -->
+
+        <div class='modal' id='register-modal'>
+            <div class='modal-dialog'>
+                <div class='modal-content'>
+
+                    <div cladd='modal-header'>
+                        <h4 class='modal-title bg-warning pt-1 pb-1 pl-2 mb-1' style="border-radius: 5px;">Create an
+                            account
+                            <button class='close' data-dismiss='modal'
+                                style="margin-right: 15px;margin-top: 06px;">X</button>
+                        </h4>
+
+                    </div>
+
+                    <div class='modal-body'>
+                        <input type="text" class='form-control' placeholder="Name"><br>
+                        <input type="email" class='form-control' placeholder="Email"><br>
+                        <input type="password" class='form-control' placeholder="Password"><br>
+                        <input type="password" class='form-control' placeholder="Confirm Password"><br>
+                        <button class='btn btn-primary'>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------helpline modal---------------------------------------------- -->
+
+        <div class='modal' id='helpline-modal'>
+            <div class='modal-dialog'>
+                <div class='modal-content'>
+
+                    <div cladd='modal-header'>
+                        <h4 class='modal-title bg-warning pt-1 pb-1 pl-2 mb-1' style="border-radius: 5px;">Customer
+                            Service
+                            <button class='close' data-dismiss='modal'
+                                style="margin-right: 15px;margin-top: 06px;">X</button>
+                        </h4>
+                    </div>
+
+                    <div class='modal-body'>
+                        <h3>Please feel free contact our customer service 1800-5802-5454</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------carousel---------------------------------- -->
+
+        <div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" ></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://sites.google.com/site/dvasfashionscom/_/rsrc/1466767510757/be-fashionable---choose-the-right-hoodie-for-men-and-women/banner3.jpg"
+                            alt="Los Angeles" width="1100" height="300">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/d9/0d/f6/d90df6c5daa8f746bd48a7cafbf78f00.jpg"
+                            alt="Chicago" width="1100" height="300">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://sites.google.com/site/dvasfashionscom/_/rsrc/1466767510757/be-fashionable---choose-the-right-hoodie-for-men-and-women/banner3.jpg"
+                            alt="New York" width="1100" height="300">
+                    </div>
+                </div>
+                <a class="carousel-control-prev " href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon "></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon " ></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- ------------------------------------div colour deal of the week--------------------------------- -->
+
+        <p class='display-4 text-center mt-2 shadow-lg p-3 mb-2 rounded'>Deal of the Week</p>
+
+
+        <!-- -----------------------------earphone watches image links----------------------------------- -->
+
+        <div class='row container ml-5'>
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsPzH-iJqS3efDLFRObm4i2hw2PzsRKdzvXf26cinUVMGq6czbQ&s"
+                            alt="" style="width: 128px;height: 128px;">
+                        <figcaption class='text-center ml-4'>Ear phones</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZPRiSEVZI_ip1exWGAv1uwfsPRvRzWOp57Y48-zWO-_uE7s1oHw&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Watches</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkJ1TvJZfKpxp-GmcPuUWjaKFnteTFBEyZHfdQcigTnnCIWrEz&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Shoes</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbK4oCwNXt-4DuLLk5BrGxmo5DoComsUoYzfmZVcb_AcSbPxsTg&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Men wear</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWyX6UmwNC_dEHupEjgUz2hVAOp5aAwLU2Bq0cSdSVpZj7nKrMg&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Women wear</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoeZIllwPzAQigqgBgs8iWS8OMipJ-ekWGbGPJnxyKE8s9kAFfQ&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Mobiles</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVQbQBXaoTA8Mk_lKNYVa4pYNG8bnGxS2eS99aI-OtY0qn3U-&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Hand Bags</figcaption>
+                    </a>
+                </figure>
+            </div>
+         </div>
+
+         <div class='row container ml-5'>
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsPzH-iJqS3efDLFRObm4i2hw2PzsRKdzvXf26cinUVMGq6czbQ&s"
+                            alt="" style="width: 128px;height: 128px;">
+                        <figcaption class='text-center ml-4'>Ear phones</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZPRiSEVZI_ip1exWGAv1uwfsPRvRzWOp57Y48-zWO-_uE7s1oHw&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Watches</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkJ1TvJZfKpxp-GmcPuUWjaKFnteTFBEyZHfdQcigTnnCIWrEz&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Shoes</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbK4oCwNXt-4DuLLk5BrGxmo5DoComsUoYzfmZVcb_AcSbPxsTg&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Men wear</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWyX6UmwNC_dEHupEjgUz2hVAOp5aAwLU2Bq0cSdSVpZj7nKrMg&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Women wear</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoeZIllwPzAQigqgBgs8iWS8OMipJ-ekWGbGPJnxyKE8s9kAFfQ&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Mobiles</figcaption>
+                    </a>
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <a href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVQbQBXaoTA8Mk_lKNYVa4pYNG8bnGxS2eS99aI-OtY0qn3U-&s"
+                            alt="" style="width: 128px;height: 128px;margin-left: 5px;">
+                        <figcaption class='text-center ml-4'>Hand Bags</figcaption>
+                    </a>
+                </figure>
+            </div>
+         </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
